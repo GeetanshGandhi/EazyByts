@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sedan+SC&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font: 30px Arial;
+    padding:10px 0 0 0;
+}
+.wrapper{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.addcourse-container{
+    background-color: rgb(221, 227, 255);
+    min-height:90vh;
+    border-bottom: 5px dotted rgb(1, 41, 116);
+}
+.course-details{
+    margin:20px; padding:20px;
+    background-color: white;
+    width: 40vw;
+    border: 2px solid rgb(0, 112, 218);
+    border-radius: 20px;;
+}
+.basic-details{
+    text-align: center;
+    font:20px Arial;
+    font-weight: BOLD;
+}
+.form-inp{
+    width: 35vw;
+    padding: 7px;
+    margin: 0 1vw 20px 1vw;
+}
+.form-inp-title{
+    font: 15px "Salsa";
+    margin: 20px 1vw 10px 1vw;
+}
+.link-font{
+    color:blue;
+    font-family: consolas;
+}
+.addcontent-button{
+    display: flex;
+    justify-content: center;
+}
+.addcontent-button button{
+    background-color: rgb(37, 187, 0);
+    padding: 7px 20px;
+    font: 20px Arial;
+    border: 2px solid green;
+    border-radius: 30px;
+    transition: background-color 0.3s ease-out;
+    color:white;    
+}
+.addcontent-button button:hover{
+    background-color: rgb(0, 82, 48);
+    cursor: pointer;
+}
+.courseitem-container{
+    margin: 20px;
+    width: 220px;
+    background-color: white;
+    padding: 15px;
+    border: 3px solid navy;
+    border-radius: 20px;
+}
+.courseitem-title{
+    text-align: center;
+    font: 17px Arial;
+    font-weight: bold;
+}
+.view-item-btn{
+    background-color: rgb(25, 163, 255);
+    margin: 10px;
+    padding: 10px 30px;
+    border: 2px solid navy;
+    font: 17px arial, sans-serif;
+    border-radius: 40px;
+    transition: background-color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+}
+.view-item-btn:hover{
+    cursor: pointer;
+    background-color: navy;
+    color: white;
+}
+.dlt-item-btn{
+    background-color: rgb(255, 115, 115);
+    margin: 10px;
+    padding: 10px 30px;
+    border: 2px solid rgb(235, 1, 1);
+    font: 17px arial, sans-serif;
+    border-radius: 40px;
+    transition: background-color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+}
+.dlt-item-btn:hover{
+    cursor: pointer;
+    background-color: rgb(235,1,1);
+    color: white;
+}
+.add-warn-msg{
+    margin:0;
+    padding: 0 10px;
+    color:red;
+    font: 14px Consolas, monospace;
+    font-weight: bold;
+}
+.limit{
+    margin:0;
+    padding: 0 10px;
+    color:rgb(17, 146, 0);
+    font: 14px Consolas, monospace;
+    font-weight: bold;
+}
+.content-list-head{
+    text-align: center;
+    padding: 30px;
+    font: 30px Arial;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.view-cnt-msg{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-weight: bold;
+    color:navy;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+*{
+    margin: 0; padding: 0;
+}
+.home-page{
+    min-height: 80vh;
+    background-color: rgb(221, 227, 255);
+}
+.home-head{
+    padding: 25px;
+    font: 30px "Vast Shadow", serif;
+    color: navy;
+}
+.course-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.course-item{
+    max-width: 300px;
+    margin: 25px;
+    padding: 20px;
+    background-color: white;
+    border: 3px solid blue;
+    border-radius: 20px;
+    transition: padding 0.5s ease-in-out,background-color 0.5s ease-in-out;
+}
+.course-item:hover{
+    padding: 20px 40px;
+    background-color: rgb(175, 255, 185);
+}
+.course-title{
+    font: 25px arial;
+    font-weight: bold;
+    text-align: center;
+}
+.instructor{
+    font: 17px "Merienda", serif;
+    font-style: italic;
+    margin: 7px;
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+.btns{
+    display:flex;
+    justify-content: center;
+    margin: 15px 20px;
+    padding:10px;
+    background-color: rgb(3, 112, 255);
+    border: 2px solid rgb(1,1,54);
+    border-radius: 30px;
+    transition: background-color 0.5s ease-out;
+}
+.btns:hover{
+    background-color: navy;
+}
+.viewcourse-link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.curated-container{
+    min-height: 80vh;
+    background-color: rgb(221, 227, 255);
+}
+.mycourses-title{
+    font: 30px "Luckiest Guy";
+    text-align: center;
+    color: navy;
+    padding: 30px;
+}
+.mycourses-subhead{
+    padding: 0 40px;
+    font: 20px Arial;
+    font-weight: bold;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+*{margin: 0; padding: 0;}
+
+.content-container{
+    background-color: rgb(221,227,255);
+    min-height: 80vh;
+}
+.content-title{
+    font: 40px "Teko",Arial;
+    padding: 25px 0 0 0;
+}
+.content-desc{
+    padding: 10px 30px;
+    font:20px serif;
+}
+.content-list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contentitem-container{
+    background-color: white;
+    max-width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid navy;
+    border-radius: 20px;
+    transition: all 0.4s ease-out;
+}
+.contentitem-container:hover{
+    background-color: rgb(216, 237, 255);
+    padding: 20px 35px;
+
+}
+.contentitem-head{
+    text-align: center;
+    font-weight: bold;
+    margin: 8px 0 15px 0;
+}
+.article-button{
+    background-color: rgb(0, 218, 109);
+    width: 250px;
+    margin: 30px 0 0 0;
+    font: 30px Arial; 
+    padding: 8px 40px;
+    border: 2px solid rgb(0, 138, 69);
+    border-radius: 30px;
+    transition: all 0.3s ease-out;
+}
+.article-button:hover{
+    background-color: rgb(0,138,69);
+    color: white;
+    cursor: pointer;
+}
+.nologin-message{
+    min-height: 80vh;
+    background-color: rgb(221,227,255);
+}
+.nologin-message p{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font: 40px "consolas", sans-serif;
+    padding: 80px 0;
+    
+}

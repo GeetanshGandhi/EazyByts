@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    background-color: rgb(28, 106, 252);
+    padding: 10px 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title img{
+    width: 50px; 
+}
+.title h1{
+    font: 30px "Roboto Condensed", sans-serif;
+    color: white;
+    padding: 0px 30px;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlinks ul{
+    list-style-type: none;
+    margin: 0 40px;
+    display: flex;
+    flex-wrap: wrap;    
+}
+.navlinks ul a{
+    text-decoration: none;
+    color: white;
+    font: 15px arial;
+    padding:0 20px;
+    margin:0;
+    transition: color 0.3s ease-out;
+}
+.navlinks ul a:hover{
+    font-weight: bold;
+    color: rgb(0, 224, 0);
+}
+.logout-button{
+    padding: 8px;
+    background-color: red;
+    color:aliceblue;
+    border: 2px solid rgb(138, 0, 0);
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 0 30px 0 0;
+    transition: background-color 0.3s ease-out;
+}
+.logout-button:hover{
+    background-color: rgb(138, 0, 0);
+    cursor: pointer;
+}
+.login-button{
+    padding: 8px 12px;
+    background-color: white;
+    color:navy;
+    border: 2px solid rgb(1,112,29);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+.login-button:hover{
+    background-color: rgb(0, 196, 49);
+    color: white;
+    cursor: pointer;
+}
+.msg-when-loggedin{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-image{
+    height: 30px;
+    margin: 10px 7px 10px 10px;
+}
+.loginuser{
+    font: 20px Arial;
+    Color: white;
+    margin: 0 30px 0 0;
+}
+.hamburger{
+    cursor: pointer;
+    width: 40px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+.hamburger:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 4px solid navy;
+    border-radius: 20px;
+}
+.submenu-wrap{
+    position:absolute;
+    top: 12%;
+    right: 1.5%;
+    width: 300px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+}
+.submenu-open{
+    max-height: 400px;
+}
+.submenu{
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.user-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+.user-info img{
+    width: 30px;
+    margin: 0 20px 0 0;
+    border-bottom: 1px grey;
+}
+.user-info p{
+    text-align: center;
+    font: 20px Arial;
+    font-weight: bold;
+
+}
+.submenu hr{
+    margin: 0;
+    background-color: grey;
+    width: 100%;
+    height: 1px;
+}
+.submenu-link{
+    text-decoration: none;
+}
+.submenu-link-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s ease-out;
+}
+.submenu-link-wrapper:hover{
+    background-color: rgb(226, 236, 250);
+}
+.submenu-link-wrapper p:hover{
+    font-weight: bold;
+    transform: translateX(5px);
+}
+.submenu-link p{
+    color: black;
+    font: 18px Arial;
+}
+.submenu-link img{
+    width: 18px;
+    margin: 0 20px 0 0 ;
+}
